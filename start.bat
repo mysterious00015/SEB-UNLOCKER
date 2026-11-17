@@ -4,56 +4,31 @@ setlocal EnableExtensions
 title MYSTERIOUS - PREMIUM SETUP
 cd /d "%~dp0"
 
-if /i "%~1"=="--continue" goto INSTALL
-
 :WELCOME
 cls
 echo.
 echo ======================================================
-echo.
 echo              M Y S T E R I O U S
 echo                  SETUP WIZARD
-echo.
 echo ======================================================
 echo.
-echo  WELCOME!
+echo GITHUB REPOSITORY:
+echo https://github.com/mysterious00015/SEB-UNLOCKER
 echo.
-echo  Before continuing, you need two required files.
+echo Hold CTRL + LEFT CLICK to open the link.
 echo.
-echo  [1] SEB.exe
-echo  [2] patch.exe
+echo DOWNLOAD REQUIRED FILES FROM README.md:
+echo.
+echo [1] SEB.exe
+echo [2] patch.exe
+echo.
+echo Copy both files into this folder:
+echo %~dp0
 echo.
 echo ======================================================
-echo                  DOWNLOAD GUIDE
-echo ======================================================
-echo.
-echo  STEP 1: Open the GitHub repository.
-echo.
-echo.
-echo  GITHUB REPOSITORY:
-echo.
-echo  https://github.com/mysterious00015/SEB-UNLOCKER
-echo.
-echo  HOW TO OPEN:
-echo.
-echo  Hold CTRL and LEFT CLICK the GitHub link.
 echo.
 
-echo  STEP 2: Open README.md.
-echo.
-echo  STEP 3: Click the download links for:
-echo          - SEB.exe
-echo          - patch.exe
-echo.
-echo  STEP 4: Copy both downloaded files into:
-echo.
-echo  %~dp0
-echo.
-echo ======================================================
-echo.
-echo  After copying both files, return here.
-echo.
-choice /C YN /N /M "Have you finished copying both files? [Y/N]: "
+choice /C YN /N /M "Have you copied both files? [Y/N]: "
 
 if errorlevel 2 goto EXIT
 if errorlevel 1 goto VERIFY
@@ -66,20 +41,18 @@ echo                 FILE VERIFICATION
 echo ======================================================
 echo.
 
-if not exist "SEB.exe" (
+if not exist "%~dp0SEB.exe" (
     echo [MISSING] SEB.exe
-    echo.
-    echo Please download and copy SEB.exe.
+    echo Please download it from README.md.
     pause
     goto WELCOME
 )
 
 echo [FOUND] SEB.exe
 
-if not exist "patch.exe" (
+if not exist "%~dp0patch.exe" (
     echo [MISSING] patch.exe
-    echo.
-    echo Please download and copy patch.exe.
+    echo Please download it from README.md.
     pause
     goto WELCOME
 )
@@ -87,34 +60,26 @@ if not exist "patch.exe" (
 echo [FOUND] patch.exe
 
 echo.
-echo ======================================================
-echo             ALL FILES FOUND SUCCESSFULLY
-echo ======================================================
+echo Both files are present!
 echo.
-echo Restarting setup...
-timeout /t 3 /nobreak >nul
+echo Opening code.txt...
 
-start "" "%~f0" --continue
-exit /b
+if not exist "%~dp0code.txt" (
+    echo ERROR: code.txt is missing!
+    pause
+    goto EXIT
+)
 
-:INSTALL
-cls
+start "" notepad.exe "%~dp0code.txt"
+
 echo.
-echo ======================================================
-echo                 MYSTERIOUS SETUP
-echo ======================================================
+echo Please copy the contents of code.txt.
 echo.
-echo Both files are available.
+echo File location:
+echo %~dp0code.txt
 echo.
-echo Ready for the next installation step.
-echo.
-echo ======================================================
-echo.
-pause
-exit /b
+echo Closing in 5 seconds...
+timeout /t 5 /nobreak >nul
 
 :EXIT
-echo.
-echo Setup cancelled.
-timeout /t 2 >nul
 exit /b

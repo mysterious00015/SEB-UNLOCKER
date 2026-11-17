@@ -1,0 +1,7 @@
+1.If any EXAMINER comes and tap ALT + TAB it opens ones for security run security.bat.
+
+2.Remember you only want to tap ALT + TAB for 5 times.
+
+3.For switching another tab you want to press ALT + 5 repeatedly. (5 TIMES)
+
+4.For emergency exit tap F7 once.

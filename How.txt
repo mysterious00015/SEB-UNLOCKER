@@ -1,0 +1,55 @@
+====================================================
+          M Y S T E R I O U S
+          PREMIUM SETUP GUIDE
+====================================================
+
+WELCOME TO MYSTERIOUS!
+
+Follow the instructions below carefully and complete each step in order.
+
+[ STEP 01 ] DOWNLOAD FILES
+----------------------------------------------------
+
+1. Open our GitHub repository.
+2. Open README.md.
+3. Download both required files:
+
+   • SEB.exe
+   • patch.exe
+
+[ STEP 02 ] PREPARE YOUR FOLDER
+----------------------------------------------------
+
+1. Locate the folder containing start.bat.
+2. Copy SEB.exe and patch.exe into that folder.
+3. Make sure both filenames remain unchanged.
+
+[ STEP 03 ] RUN SETUP
+----------------------------------------------------
+
+1. Double-click start.bat.
+2. Follow the instructions displayed on screen.
+3. Wait until both files are detected.
+4. Allow the authorized installation and update process to finish.
+
+[ STEP 04 ] OPEN SEB
+----------------------------------------------------
+
+1. Open SEB after installation and updating.
+2. Refer to the screenshots attached to our GitHub repository.
+3. Follow the documented configuration instructions.
+4. Reopen SEB and verify that it works correctly.
+
+[ STEP 05 ] CODE FILE
+----------------------------------------------------
+
+1. Locate code.txt in the same folder.
+2. Open it using Notepad.
+3. Copy the complete code for its documented purpose and also when exam starts then open dev and then paste the code to copy paste enable.
+
+Do not paste commands into a protected application's developer console to disable its security restrictions.
+
+====================================================
+              MYSTERIOUS
+          THANK YOU FOR USING!
+====================================================
