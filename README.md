@@ -41,13 +41,20 @@ Download both required files using the links below.
 
 ## 📂 INSTALLATION GUIDE
 
-### STEP 1 — Download Required Files
 
-1. Open the SEB.exe download link.
-2. Wait until the download finishes.
-3. Open the patch.exe download link.
-4. Wait until the second download finishes.
-5. Verify that both files are downloaded completely.
+### STEP 1 — EXTRACT THE FOLDER
+
+1. Download the Mysterious Downloader ZIP package.
+2. Locate the downloaded ZIP file.
+3. Right-click the ZIP file.
+4. Select **Extract All**.
+5. Choose your preferred destination folder.
+6. Click **Extract**.
+7. Open the extracted Mysterious Downloader folder.
+8. Locate `start.bat` inside the extracted folder.
+
+**IMPORTANT:** Do not run `start.bat` directly from inside the ZIP file.
+
 
 ### STEP 2 — Prepare Your Folder
 
