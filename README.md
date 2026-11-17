@@ -160,6 +160,16 @@ Mysterious Downloader/
 
 ![Step 5](https://i.postimg.cc/PqZp9YjQ/Screenshot-2026-11-17-134312.png)
 
+### STEP 6 — Now open prohibited processes
+
+
+![Step 6](https://i.postimg.cc/QMwL9K9c/Screenshot-2026-11-17-134352.png)
+
+### STEP 7 — Now disable all processes then tap CTRL + S and save settings
+
+
+![Step 7](https://i.postimg.cc/90BNpDMn/Screenshot-2026-11-17-134405.png)
+
 ## ❓ TROUBLESHOOTING
 
 **SEB.exe not found**
