@@ -126,6 +126,25 @@ Mysterious Downloader/
 
 ---
 
+## 📸 INSTALLATION TUTORIAL
+
+### STEP 1 — Open search bar and search SEB configuration tool
+
+
+![Step 1](https://i.postimg.cc/pL5tJBf3/Screenshot-2026-11-17-134027.png)
+
+### STEP 2 — Download Required Files
+
+Download both required files from the links below.
+
+![Step 2](YOUR_IMAGE_URL)
+
+### STEP 3 — Prepare the Folder
+
+Copy both files into the folder containing start.bat.
+
+![Step 3](YOUR_IMAGE_URL)
+
 ## ❓ TROUBLESHOOTING
 
 **SEB.exe not found**
