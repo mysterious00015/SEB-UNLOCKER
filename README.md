@@ -133,17 +133,32 @@ Mysterious Downloader/
 
 ![Step 1](https://i.postimg.cc/pL5tJBf3/Screenshot-2026-11-17-134027.png)
 
-### STEP 2 — Download Required Files
+### STEP 2 — Now open security tab
 
-Download both required files from the links below.
 
-![Step 2](YOUR_IMAGE_URL)
+![Step 2](https://i.postimg.cc/4ddPpWcF/Screenshot-2026-11-17-134142.png)
 
-### STEP 3 — Prepare the Folder
+### STEP 3 — Now do same settings done in image
 
-Copy both files into the folder containing start.bat.
 
-![Step 3](YOUR_IMAGE_URL)
+![Step 3](https://i.postimg.cc/ht1Nr3Jz/Screenshot-2026-11-17-134210.png)
+
+### STEP 4 — Now open applications tab
+
+
+![Step 4](https://i.postimg.cc/q7CyrW8c/Screenshot-2026-11-17-134239.png)
+
+### STEP 5 — In application tab add chrome.exe how to get....
+
+> 1. Tap applications
+> 2. A prompt will open, then open program files
+> 3. Then see google then open that
+> 4. Open chrome 
+> 5. Now select chrome.exe
+
+
+
+![Step 5](https://i.postimg.cc/PqZp9YjQ/Screenshot-2026-11-17-134312.png)
 
 ## ❓ TROUBLESHOOTING
 
