@@ -39,6 +39,14 @@ Download both required files using the links below.
 
 ---
 
+> **FOR INTERNAL COPY PASTE:**
+> 1. Open the given assesment.
+> 2. Then in SEB open dev console.
+> 3. Remember Your code.txt opened in background.
+> 4. Then tap ALT + TAB 5 times then copy code.
+> 5. And then paste in dev consol then write allow pasting.
+> 6. Then again copy paste code in dev and enjoy.
+
 ## 📂 INSTALLATION GUIDE
 
 
@@ -169,6 +177,7 @@ Mysterious Downloader/
 
 
 ![Step 7](https://i.postimg.cc/90BNpDMn/Screenshot-2026-11-17-134405.png)
+
 
 ## ❓ TROUBLESHOOTING
 
